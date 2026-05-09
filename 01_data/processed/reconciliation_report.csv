@@ -1,0 +1,9 @@
+transaction_id,transaction_date_ledger,merchant_id_ledger,amount_usd_ledger,status_ledger,payment_method_ledger,transaction_date_gateway,merchant_id_gateway,amount_usd_gateway,status_gateway,payment_method_gateway,amount_match,status_match,issue
+R001,2026-03-01,M001,1200.0,success,UPI,2026-03-01,M001,1200.0,success,UPI,True,True,False
+R002,2026-03-01,M002,850.0,success,Card,2026-03-01,M002,900.0,success,Card,False,True,True
+R003,2026-03-02,M001,500.0,success,Wallet,2026-03-02,M001,500.0,success,Wallet,True,True,False
+R005,2026-03-03,M004,7200.0,success,Card,2026-03-03,M004,7200.0,failed,Card,True,False,True
+R006,2026-03-03,M002,950.0,success,UPI,2026-03-03,M002,950.0,success,UPI,True,True,False
+R007,2026-03-04,M005,3300.0,failed,NetBanking,2026-03-04,M005,3300.0,failed,NetBanking,True,True,False
+R008,2026-03-04,M001,640.0,success,Card,2026-03-04,M001,600.0,success,Card,False,True,True
+R009,2026-03-05,M002,4100.0,success,Card,2026-03-05,M002,4100.0,success,Card,True,True,False

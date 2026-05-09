@@ -1,0 +1,27 @@
+# Looker Studio Dashboard Link
+
+## Public Dashboard URL
+https://lookerstudio.google.com/reporting/YOUR_DASHBOARD_ID_HERE
+
+---
+## Instructions to Create Dashboard
+
+1. Go to https://lookerstudio.google.com
+2. Click "Create" → "Report"
+3. Connect data sources (upload the following CSVs from 01_data/processed/):
+   - daily_summary.csv          → Trend chart (GMV over time)
+   - payment_method_breakdown.csv → Payment method pie/bar chart
+   - region_breakdown.csv       → Region breakdown chart
+   - merchant_performance_summary.csv → Merchant detail table
+   - cleaned_transactions.csv   → Headline KPIs (Total GMV, Confirmed GMV, Success Rate)
+
+4. Build the following components:
+   - Headline KPIs: Total GMV, Confirmed GMV, Amount at Risk ($1,490), Success Rate (73.33%)
+   - Trend chart: Daily GMV and transaction count (from daily_summary.csv)
+   - Pie chart: Payment method breakdown (from payment_method_breakdown.csv)
+   - Bar chart: Region GMV comparison (from region_breakdown.csv)
+   - Data table: Merchant performance with chargeback ratio (from merchant_performance_summary.csv)
+   - Filter control: Date range filter on transaction_date
+
+5. Make the report public: Share → "Anyone with the link can view"
+6. Replace the URL above with your public dashboard link
