@@ -10,36 +10,7 @@
 
 ---
 
-## Short run instructions
 
-### Prerequisites
-```bash
-pip install pandas numpy openpyxl jupyter
-```
-
-### Step 1 — Clone the repository
-```bash
-git clone https://github.com/yourusername/quickpay-fintech.git
-cd quickpay-fintech
-```
-
-### Step 2 — Run the Python Notebook
-```bash
-cd 04_python
-jupyter notebook fintech_pipeline.ipynb
-```
-Run all cells top to bottom. This generates all processed output files and summary_metrics.json.
-
-### Step 3 — Review the Spreadsheet
-Open `02_spreadsheet/spreadsheet_workbook.xlsx` in Excel or Google Sheets.
-
-### Step 4 — Run SQL Queries
-Load `01_data/processed/cleaned_transactions.csv` as `cleaned_transactions` and run `03_sql/analysis_queries.sql`.
-
-### Step 5 — View the Dashboard
-Open `05_visualization/dashboard_link.txt` for the Looker Studio public link.
-
----
 
 ## Tools used
 
