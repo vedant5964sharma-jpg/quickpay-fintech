@@ -4,9 +4,9 @@
 
 | Field | Details |
 |---|---|
-| **Student Name** | [Your Full Name Here] |
-| **Student ID** | [Your Student ID Here] |
-| **Public GitHub Repository Link** | https://github.com/yourusername/quickpay-fintech |
+| **Student Name** | [vedant sharma] |
+| **Student ID** | [2601008] |
+| **Public GitHub Repository Link** | [https://github.com/yourusername/quickpay-fintech](https://github.com/vedant5964sharma-jpg/quickpay-fintech/edit/main/README.md) |
 
 ---
 
